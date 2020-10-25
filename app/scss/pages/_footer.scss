@@ -1,0 +1,42 @@
+.footer {
+	// .footer__box-top
+	&__box-top {
+		font-family: Roboto;
+		font-size: 15px;
+		font-weight: 300;
+		line-height: 92px;
+		background-color: #303030;
+		height: 92px;
+		text-align: center;
+		@media (max-width: 767.98px) {
+			height: 62px;
+			line-height: 62px;
+		};
+	}
+	// .footer__copyright
+	&__copyright {
+		color: #ffffff;
+		max-width: 500px;
+		margin: 0 auto;
+		& a {
+			color: #f6255a;
+			text-decoration: underline;
+		}
+	}
+	// .footer__box-bottom
+	&__box-bottom {
+		padding: 15px 0;
+		text-align: center;
+		@media (max-width: 767.98px) {
+			padding: 7px 0;
+		};
+	}
+	// .footer__made
+	&__made {
+		color: #2f2f2f;
+		font-family: Roboto;
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 22px;
+	}
+}
